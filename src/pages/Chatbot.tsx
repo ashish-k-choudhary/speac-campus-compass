@@ -14,7 +14,7 @@ const Chatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hi there! I'm SPEAC's mental health support chatbot. How are you feeling today?",
+      text: "Hi there! I'm AJ, your personal counsellor. How are you feeling today?",
       sender: 'bot',
       timestamp: new Date(),
     },
@@ -97,7 +97,7 @@ const Chatbot = () => {
                       <div 
                         className={`max-w-xs md:max-w-md rounded-2xl p-4 ${
                           message.sender === 'user' 
-                            ? 'bg-speac-purple text-white rounded-br-none' 
+                            ? 'bg-white shadow rounded-bl-none'
                             : 'bg-white shadow rounded-bl-none'
                         }`}
                       >

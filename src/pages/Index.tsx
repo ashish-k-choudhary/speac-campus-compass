@@ -1,4 +1,3 @@
-
 import { ArrowRight, Shield, MessageCircle, Users, HeartHandshake, BrainCircuit, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Layout from '../components/Layout';
@@ -16,7 +15,7 @@ const Home = () => {
             <p className="text-lg mb-8 text-muted-foreground max-w-2xl mx-auto lg:mx-0">
               free, confidential counseling and support — made for students, by students.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start w-full">
+            <div className="flex sm:flex-row gap-4 justify-center lg:justify-start">
               <Link to="/chatbot" className="speac-button-primary w-full sm:w-auto text-center">
                 talk to aj
               </Link>
@@ -49,11 +48,11 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="absolute bottom-0 left-0 right-0">
+        {/* <div className="absolute bottom-0 left-0 right-0">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fillOpacity="1" d="M0,160L48,138.7C96,117,192,75,288,69.3C384,64,480,96,576,128C672,160,768,192,864,186.7C960,181,1056,139,1152,133.3C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
-        </div>
+        </div> */}
       </section>
       
       {/* Stats Section */}
